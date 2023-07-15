@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nikos Grigorioy - Front-End Developer</title>
+    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_2.css" />
+    <link rel="shortcut icon" href="./assets/images/fav.ico" />
+
+    <!--Google Gonts (Nunito,Quicksand)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <!--jQuery CDN Link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--------Animations from animate.css------------->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!----------------Form Validation------------------>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+
+</head>
+  <body >
+    <button id="scrollToTopButton"><i class="bi bi-arrow-up scrollToTopIcon"></i></button>
+
+    <div class="container-fluid  header_container navigation hidden">
+        
+        <nav id="site-header" class=" navbar navbar-expand-lg ">
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHam" aria-controls="navbarHam" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse  navbar-collapse" id="navbarHam">
+              <ul class="navbar-nav nav__links me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-2">
+                  <a href="#" class="nav-link " aria-current="page">Home</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a href="#about-me" class="nav-link">About</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a href="#projects" class="nav-link">Projects</a>
+                </li>
+
+                <li class="nav-item me-2">
+                  <a href="#skills" class="nav-link">Skills</a>
+                </li>
+
+                <li class="nav-item me-2">
+                  <a href="#relax" class="nav-link">Inspiration</a>
+                </li>
+
+                <li class="nav-item me-2">
+                  <a href="#contact-me" class="nav-link">Contact</a>
+                </li>
+
+               
+                <button class="large_btns" id="btn-change-theme-color"><span class="btn_text">Summer Edition</span> <i class="bi bi-thermometer-sun ms-2 btn_icons theme_icon"></i></button>
+                
+              </ul>
+              
+            </div>
+    
+        </nav>
+      </div>
+
+     <div class="animation_section">
+        <div class="trns-text welcome_title left_welcome animate__animated  animate__fadeInDown animate__delay-2s">Hello </div>
+      <div class="trns-text welcome_title right_welcome animate__animated animate__fadeInRight animate__delay-3s">World!</div>
+      </div> 
+      
+    
+    <div id="landing-page" class="container-fluid  mt-5 hidden">
+        
+        <div class="hero_section row">  <!--hidden-->
+
+            <div class="col-lg-6 col-sm-12 left_section ">
+              <div class=" personal_description">
+                <!-- <div class="job_description mb-3"> <i class="bi bi-code-slash me-2"></i><h3 >Junior Front-End Developer</h3></div> -->
+
+                <h1>Hi! I 'm <span id="colored-name">Nikos Grigorioy</span>!</h1>
+                <p class="personal_info">With attention to detail and a keen eye for design, I create websites that not only look great but also function flawlessly on all devices.</p>
+                <button class="large_btns me-3 mt-4"><a href="./documents/my_CV.pdf" target="_blank">Download my CV<i class="ms-2 btn_icons bi bi-arrow-down-circle"></i></a></button>
+                <button  class="large_btns mt-4"><a href="#contact-me">Contact me <i class="ms-2 btn_icons bi bi-send-fill"></i></a></button>
+              </div>
+            </div>
+            <div class="right_section col-lg-6 col-sm-12  ">
+              <div class="bg-image img-fluid">
+
+              </div>
+              <ul class="social_media_landing_page list-unstyled ">
+                <li class="my-2 animate__animated "><a  href="#"><i class="bi bi-instagram "></i></a></li>
+                <li class="my-2 animate__animated"><a  href="https://github.com/nikosgrigo" target="_blank"><i class="bi bi-github"></i></a></li>
+                <li class="my-2 animate__animated"><a  href="https://twitter.com/nikosgrigoriou2" target="_blank"><i class="bi bi-twitter"></i></a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="about-me" class="container-fluid section">
+       
+            <div class="section_header">
+                <h2 class="text-center">About me</h2>
+                <p class="section_header_description text-center">Lets learn more about me!</p>
+            </div>
+            
+        <div class="row section-main">
+            <div class="col-lg-6 col-md-12 col-sm-12 about_me_description">
+              <p ><strong>Greetings</strong>, my name is Nikos Grigoriou, and I'm now a third-year <strong>informatics student</strong> at the <strong>University of Macedonia in Thessaloniki</strong>,
+                 Greece. I've always been fascinated by the quick development of technology and how it may influence our future. 
+                </p>
+                <p>I intend to continue honing my abilities as a <strong>front-end developer</strong> and work on interesting and difficult projects in the future.
+                 I am staying up-to-date with the latest trends and best practices in the web development industry. 
+                 I regularly attend <strong> webinars, read industry blogs and articles, </strong> and participate in online forums <strong> to expand my knowledge and skills </strong>.
+                 More information about my skills and my projects can be found in the following sections.</p>
+                 <p>I appreciate you taking the time to read a little bit about me. 
+                  You are welcome to contact us if you have any queries.<strong>I'm interested in hearing from you!</strong> </p> 
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 img_container">
+              <img class="img-fluid ms-5" id='about_img' src="./assets/images/aboutme_photo.jpg" alt="Nikos Grigorioy">
+            </div>
+        </div>
+    </div>
+      <hr>
+    <div id="projects" class="container-fluid section">
+        
+          <div class="section_header">
+              <h2 class="text-center">Latest Projects</h2>
+              <p class="section_header_description text-center">Here you can find some of my previous work!</p>
+          </div>
+        
+      <div class="row section-main">
+        <div class="col-lg-12 project_container">
+          <div class="card">
+            <div class="card-details">
+              <p class="text-title">Ecord App</p>
+            </div>
+            <button class="card-button text-center"><a href="">More Info</a><i class="bi bi-arrow-right-circle ms-2"></i></button>
+          </div>
+
+          <div class="card">
+            <div class="card-details">
+              <p class="text-title">Roll the dice</p>
+            </div>
+            <button class="card-button text-center"><a href="">More Info</a><i class="bi bi-arrow-right-circle ms-2"></i></button>
+          </div>
+
+          <div class="card">
+            <div class="card-details">
+              <p class="text-title">Simple Quiz</p>
+            </div>
+            <button class="card-button text-center"><a href="">More Info</a><i class="bi bi-arrow-right-circle ms-2"></i></button>
+          </div>
+        </div>
+        
+      </div>    
+      
+    </div>
+ 
+  <hr>
+
+  <div id="skills" class="container-fluid section">
+        
+    <div class="section_header">
+        <h2 class="text-center">Skills</h2>
+        <p class="section_header_description text-center">The Skills That Drive My Passion for Web Design.</p>
+    </div>
+
+  <div class="row section-main">
+    <div class=" col-lg-6 col-sm-12">
+      <h3 class="skills_header text-center"><i class="bi bi-code-square me-3"></i>Technical Skills</h3>
+      <div class="skills_header_divider"></div>
+      <div class="skills_list" id="technical-skills">
+        <ul>
+          <li>Proficient in <strong>HTML, CSS, and JavaScript</strong>.</li>
+          <li><strong>Bootstrap</strong> to create responsive and modern websites.</li>
+          <li>Familiarity with <strong>Git and GitHub</strong> for version control</li>
+          <li> Knowledge of web design principles, including <strong>responsive design.</strong></li>
+          <!-- <li>Familiarity with <strong>front-end development tools</strong> such as Visual Studio Code and CodePen.</li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <h3 class="skills_header text-center"><i class="bi bi-people-fill me-3"></i>Soft Skills</h3>
+      <div class="skills_header_divider"></div>
+      <div class="skills_list text-center" id="soft-skills">
+        <ul>
+          <li>Problem-solving</li>
+          <li>Creativity</li>
+          <li>Adaptability</li>
+          <li>Attention to detail</li>
+          <!-- <li>Continuous learning and development</li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <hr>
+  <div id="relax" class="container section mx-auto">
+        
+      <div class="section_header">
+          <h2 class="text-center">Relax Section</h2>
+          <p class="section_header_description text-center">Let me give you a note of inspiration!</p>
+      </div>
+    
+        <div class="row section-main quote_section pt-5">
+            <div class="col-lg-10 d-flex justify-content-center align-items-center">
+        
+            <div class="quote-container fade-in">
+            <p id="quote" ></p>
+            <p id="author" ></p>
+            </div>
+        </div>
+      </div>
+
+  </div>
+  <hr>
+
+<div id="contact-me" class="container-fluid section">
+       
+    <div class="section_header">
+        <h2 class="text-center">Contact me</h2>
+        <p class="section_header_description text-center">Let's get in touch!</p>
+    </div>
+    
+<div class="row section-main mx-lg-5">
+    <div class="col-lg-6 col-md-12 col-sm-12 form_container">
+      <form id="contact-form" class="mt-5" action="form.php" method="post" >
+        <div class="row mb-3">
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <label for="form-firstname" class="form-label">First name</label>
+            <input type="text" class="form-control" id='form-firstname' placeholder="First name" name="firstName" required>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <label for="form-lastname" class="form-label">Last name</label>
+
+            <input type="text" class="form-control" id='form-lastname' placeholder="Last name" name="lastName" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="message" required></textarea>
+        </div>
+        <button type="submit" class="large_btns mt-4">Submit Form<i class="ms-2 btn_icons bi bi-send-fill"></i></button>
+
+      </form>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 ">
+        <img src="./assets/images/form_img.svg" class=" img-fluid" id="form-svg" alt="email">
+    </div>
+</div>
+</div>
+<hr>
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 my-4 ">
+      <div class="col-md-6 d-flex align-items-center">
+        
+        <span class="mb-3 mb-md-0 ">© 2023 Nikos Grigorioy</span>
+      </div>
+  
+      <ul class="nav social_media_footer col-md-6 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="" href="#" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="" href="https://github.com/nikosgrigo" target="_blank"><i class="bi bi-github"></i></a></li>
+        <li class="ms-3"><a  href="https://twitter.com/nikosgrigoriou2" target="_blank"><i class="bi bi-twitter"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+   
+    
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

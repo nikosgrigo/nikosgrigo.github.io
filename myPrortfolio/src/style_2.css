@@ -1,0 +1,170 @@
+/*---------- Skils Section --------------*/
+@media (max-width: 576px) {
+  /*Landing page*/
+  .bg-image {
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .nav-item:hover {
+    border-bottom: none !important;
+  }
+
+  .section,
+  #landing-page {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  #btn-change-theme-color {
+    display: none;
+  }
+
+  .large_btns {
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .personal_description h1 {
+    font-size: 40px;
+  }
+
+  .left_spersonal_description p {
+    font-size: 17px;
+  }
+
+  .social_media_landing_page {
+    position: absolute;
+    left: 10px;
+    top: 65%;
+    font-size: 22px;
+  }
+
+  .section_header h2 {
+    font-size: 30px;
+  }
+
+  .section_header_description {
+    font-size: 15px;
+  }
+
+  .personal_description {
+    margin: 1rem 1rem;
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+
+  #about_img {
+    width: 270px;
+    height: 290px;
+    margin: 20px;
+  }
+
+  /*-----Project Section------*/
+  .gallery > img {
+    width: 350px;
+  }
+
+  .project_short_description p {
+    font-size: 15px;
+  }
+
+  .project_container {
+    margin-bottom: 20px;
+  }
+  /*------Skills Section -----------*/
+
+  .skills_header {
+    font-size: 20px;
+  }
+
+  .skills_list ul {
+    font-size: 17px;
+  }
+
+  #soft-skills ul li,
+  strong {
+    font-size: 17px;
+  }
+
+  .skills_list ul {
+    margin-bottom: 4rem;
+  }
+
+  /*----Relax Section ---------*/
+  #quote {
+    font-size: 30px;
+    transition: opacity 2s ease;
+  }
+
+  #author {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  /*----Contact Form --------*/
+  #form-svg {
+    margin-top: 0;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  /*-----Footer Section-------*/
+
+  footer span,
+  .social_media_footer li a {
+    font-size: 17px;
+  }
+}
+
+@media (width > 576px) and (width<992px) {
+  .bg-image {
+    width: 350px;
+    height: 350px;
+    margin: 10% 0;
+  }
+
+  .personal_description {
+    margin-top: 5%;
+  }
+
+  .section,
+  #landing-page {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  #about_img {
+    margin: 50px 0px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .project_short_description_wrapper {
+    padding: 50px 30px;
+  }
+
+  .quote-container {
+    max-width: 800px;
+    margin-top: 20px;
+  }
+
+  #form-svg {
+    display: none;
+  }
+
+  .skills_list ul li {
+    width: 65%;
+  }
+
+  .about_me_description {
+    padding: 20px 50px;
+  }
+}
